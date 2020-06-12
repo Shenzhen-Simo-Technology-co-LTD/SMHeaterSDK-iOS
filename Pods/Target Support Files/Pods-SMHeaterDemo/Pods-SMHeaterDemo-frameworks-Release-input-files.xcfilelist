@@ -1,0 +1,6 @@
+${PODS_ROOT}/Target Support Files/Pods-SMHeaterDemo/Pods-SMHeaterDemo-frameworks.sh
+${BUILT_PRODUCTS_DIR}/GLDemoUIKit/GLDemoUIKit.framework
+${BUILT_PRODUCTS_DIR}/PKHUD/PKHUD.framework
+${PODS_ROOT}/../SMHeaterDemo/SMHeaterSDK/SMHeaterSDK.framework
+${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework
+${BUILT_PRODUCTS_DIR}/YYCategories/YYCategories.framework

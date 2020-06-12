@@ -1,0 +1,6 @@
+framework module Pods_SMHeaterDemo {
+  umbrella header "Pods-SMHeaterDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

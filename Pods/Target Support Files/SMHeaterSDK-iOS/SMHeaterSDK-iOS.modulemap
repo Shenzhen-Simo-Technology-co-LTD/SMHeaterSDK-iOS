@@ -1,0 +1,6 @@
+framework module SMHeaterSDK_iOS {
+  umbrella header "SMHeaterSDK-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
