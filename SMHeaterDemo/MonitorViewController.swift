@@ -183,6 +183,7 @@ UITableViewDelegate, UITableViewDataSource, SMHeaterManagerDelegate {
         cell.detailTextLabel?.numberOfLines = 0
         cell.detailTextLabel?.font = UIFont.systemFont(ofSize: 30)
         cell.detailTextLabel?.textAlignment = .center
+        cell.detailTextLabel?.text = "  "
         return cell
     }
     // MARK: - OnEvent
