@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "SMHeaterSDK-iOS"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.4"
   spec.summary      = "A iOS SDK and Demo to Control SIMO Heater via BLE."
   spec.homepage     = "https://github.com/Shenzhen-Simo-Technology-co-LTD/SMHeaterSDK-iOS"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
