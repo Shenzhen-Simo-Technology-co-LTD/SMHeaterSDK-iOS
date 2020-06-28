@@ -1,0 +1,11 @@
+framework module SMHeaterSDK {
+  umbrella header "SMHeaterSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module SMHeaterSDK.Swift {
+    header "SMHeaterSDK-Swift.h"
+    requires objc
+}

@@ -12,27 +12,24 @@ PODS:
 
 DEPENDENCIES:
   - GLDemoUIKit
-  - SMHeaterSDK-iOS (from `./`)
+  - SMHeaterSDK-iOS
 
 SPEC REPOS:
   https://github.com/GrayLand119/GLSpecs.git:
     - GLDemoUIKit
+    - SMHeaterSDK-iOS
   https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
     - PKHUD
     - SnapKit
     - YYCategories
 
-EXTERNAL SOURCES:
-  SMHeaterSDK-iOS:
-    :path: "./"
-
 SPEC CHECKSUMS:
   GLDemoUIKit: ee2ac881ced363e3ed21e5fa8b1745790dfec464
   PKHUD: 98f3e4bc904b9c916f1c5bb6d765365b5357291b
-  SMHeaterSDK-iOS: d45f0b074ab44802e2e335560ffa4c474dd4d048
+  SMHeaterSDK-iOS: d646d42bf4807d1ef4038cb70096b51f5fcbda2c
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
   YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
 
-PODFILE CHECKSUM: e1f38bc625b06587d3562ec72fccabe035a15583
+PODFILE CHECKSUM: 03f0c1efcbc9d88e5a58d961239494ecb179b642
 
 COCOAPODS: 1.9.1

@@ -1,5 +1,4 @@
 # SMHeaterSDK-iOS
-![Platform-iOS](https://img.shields.io/badge/Platform-iOS-blue.svg) ![SupportAPI](https://img.shields.io/badge/iOS-10.0+-orange.svg) ![Language](https://img.shields.io/badge/Language-Swift-sky.svg)
 
 A iOS SDK and Demo to Control SIMO Heater via BLE.
 
@@ -12,6 +11,3 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 pod 'SMHeaterSDK-iOS'
 ```
-
-
-![Demo](demo_ios.gif)
