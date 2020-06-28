@@ -20,3 +20,9 @@ public let BG_SHADOW_COLOR = MColor.init(COLOR_WITH_HEX("EA9A78"), dark: COLOR_W
 // TOP F7BF88
 
 public let TEMPERATURE_SYMBOL = "℃"
+
+
+// Style - Default
+public let DEFAULT_BG_COLOR = MColor.init(COLOR_WITH_HEX("2979ff"), dark: COLOR_WITH_HEX("1a237e"))
+public let DEFAULT_BG_HIGHTLIGHT_COLOR = MColor.init(COLOR_WITH_HEX("75a7ff"), dark: COLOR_WITH_HEX("534bae"))
+public let DEFAULT_TEXT_COLOR = MColor.init(COLOR_WITH_HEX("000000"), dark: COLOR_WITH_HEX("ffffff"))

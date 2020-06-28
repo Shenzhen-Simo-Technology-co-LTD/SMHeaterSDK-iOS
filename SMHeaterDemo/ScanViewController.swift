@@ -88,7 +88,7 @@ class ScanViewController: GLBaseViewController, SMHeaterManagerDelegate, UITable
         SMHeaterManager.defaultManager.stopScan()
         
         let vc = MonitorViewController()
-        let nvc = DemoNavigationController.init(rootViewController: vc)
+        let nvc = DemoNavigationController.init(vc)
         nvc.modalPresentationStyle = .fullScreen
         self.present(nvc, animated: true, completion: nil)
     }
@@ -165,8 +165,6 @@ class ScanViewController: GLBaseViewController, SMHeaterManagerDelegate, UITable
     lazy var tableView: GLBaseTableView = {
         let tb = GLBaseTableView.init()
         tb.register(UITableViewCell.self, forCellReuseIdentifier: "UITableViewCell")
-        tb.layer.cornerRadius = 8
-        tb.layer.masksToBounds = true
         tb.delegate = self
         tb.dataSource = self
         return tb

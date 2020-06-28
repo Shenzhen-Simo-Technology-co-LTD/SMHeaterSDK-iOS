@@ -22,7 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let _ = SMHeaterManager.defaultManager.isBLEOn
         
         let vc = HomeViewController()
-        let nvc = DemoNavigationController.init(rootViewController: vc)
+        let nvc = DemoNavigationController.init(vc)
         let window = UIWindow.init(frame: UIScreen.main.bounds)
         window.rootViewController = nvc
         window.makeKeyAndVisible()

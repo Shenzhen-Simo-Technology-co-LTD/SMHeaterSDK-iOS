@@ -13,6 +13,10 @@ enum CellType: Int {
     case TargetTemperature
     case SlideControl
     case HeatOnOff
+    case NtcState
+    case QcState
+    case PwmState
+    case Voltage
 }
 
 class MonitorViewController: GLBaseViewController,
@@ -59,7 +63,11 @@ UITableViewDelegate, UITableViewDataSource, SMHeaterManagerDelegate {
         cellTypes = [CellType.CurrentTemperature,
                      CellType.TargetTemperature,
                      CellType.SlideControl,
-                     CellType.HeatOnOff]
+                     CellType.HeatOnOff,
+                     CellType.NtcState,
+                     CellType.QcState,
+                     CellType.PwmState,
+                     CellType.Voltage]
         
         setupViews()
         setupLayout()
@@ -98,7 +106,7 @@ UITableViewDelegate, UITableViewDataSource, SMHeaterManagerDelegate {
                 
             case .SlideControl:
                 let cell = genCommonCell()
-                cell.textLabel?.text = "Slide to set target temperature:"
+                cell.textLabel?.text = "Slide to set target temperature:\n"
                 slider.minimumValue = Float(TEMPERATURE_MIN)
                 slider.maximumValue = Float(TEMPERATURE_MAX)
                 slider.isContinuous = true
@@ -127,6 +135,26 @@ UITableViewDelegate, UITableViewDataSource, SMHeaterManagerDelegate {
                     //                    make.height.equalTo(50)
                 }
                 
+                tCells.add(cell)
+            case .NtcState:
+                let cell = genCommonCell()
+                cell.textLabel?.text = "NTC State"
+                cell.detailTextLabel?.text = "- -"
+                tCells.add(cell)
+            case .QcState:
+                let cell = genCommonCell()
+                cell.textLabel?.text = "QC State"
+                cell.detailTextLabel?.text = "- -"
+                tCells.add(cell)
+            case .PwmState:
+                let cell = genCommonCell()
+                cell.textLabel?.text = "PWM State"
+                cell.detailTextLabel?.text = "- -"
+                tCells.add(cell)
+            case .Voltage:
+                let cell = genCommonCell()
+                cell.textLabel?.text = "Voltage Value(mV)"
+                cell.detailTextLabel?.text = "- -"
                 tCells.add(cell)
             }
         }
@@ -183,7 +211,6 @@ UITableViewDelegate, UITableViewDataSource, SMHeaterManagerDelegate {
         cell.detailTextLabel?.numberOfLines = 0
         cell.detailTextLabel?.font = UIFont.systemFont(ofSize: 30)
         cell.detailTextLabel?.textAlignment = .center
-        cell.detailTextLabel?.text = "  "
         return cell
     }
     // MARK: - OnEvent
@@ -224,7 +251,7 @@ UITableViewDelegate, UITableViewDataSource, SMHeaterManagerDelegate {
         return cellTypes?.count ?? 0
     }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 100
+        return indexPath.row == CellType.SlideControl.rawValue ? 100: 50
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = cells?[indexPath.row] ?? UITableViewCell()
@@ -250,6 +277,19 @@ UITableViewDelegate, UITableViewDataSource, SMHeaterManagerDelegate {
             
         case .HeatOnOff:
             onOffControl.isOn = SMHeaterManager.defaultManager.curDevice?.isHeating ?? false
+            
+        case .NtcState:
+            cell.detailTextLabel?.text = SMHeaterManager.defaultManager.curDevice?.ntcState.toString()
+            
+        case .QcState:
+            cell.detailTextLabel?.text = SMHeaterManager.defaultManager.curDevice?.qcState.toString()
+1
+        case .PwmState:
+            cell.detailTextLabel?.text = SMHeaterManager.defaultManager.curDevice?.pwm.toString()
+            
+        case .Voltage:
+            cell.detailTextLabel?.text = SMHeaterManager.defaultManager.curDevice?.milVoltage.toString() ?? "0" + "mV"
+            
         default: break
         }
         
@@ -269,4 +309,10 @@ UITableViewDelegate, UITableViewDataSource, SMHeaterManagerDelegate {
         tb.dataSource = self
         return tb
     }()
+}
+
+extension Int {
+    func toString() -> String {
+        return String(self)
+    }
 }

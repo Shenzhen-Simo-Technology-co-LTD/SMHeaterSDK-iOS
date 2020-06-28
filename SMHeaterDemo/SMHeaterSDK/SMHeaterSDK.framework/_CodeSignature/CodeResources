@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		RNIdS8pvuQInfl4NPZrkuf+wiuw=
+		UUOZLEsQWBsg7iXnA+VwMEL+1Eo=
 		</data>
 		<key>Modules/SMHeaterSDK.swiftmodule/arm.swiftdoc</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Modules/SMHeaterSDK.swiftmodule/arm.swiftmodule</key>
 		<data>
-		AozZiTPm2dLdfRSa1vE7rpdFAwo=
+		JuCbIO97YzMA/X5axNM96aF1WPQ=
 		</data>
 		<key>Modules/SMHeaterSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/SMHeaterSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		I3QzwCjOCQ1c24A67Z11k/g7vkY=
+		XDQYSQcctSc6E2tL8VLuOubC3vY=
 		</data>
 		<key>Modules/SMHeaterSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/SMHeaterSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		I3QzwCjOCQ1c24A67Z11k/g7vkY=
+		XDQYSQcctSc6E2tL8VLuOubC3vY=
 		</data>
 		<key>Modules/SMHeaterSDK.swiftmodule/armv7-apple-ios.swiftdoc</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/SMHeaterSDK.swiftmodule/armv7-apple-ios.swiftmodule</key>
 		<data>
-		AozZiTPm2dLdfRSa1vE7rpdFAwo=
+		JuCbIO97YzMA/X5axNM96aF1WPQ=
 		</data>
 		<key>Modules/SMHeaterSDK.swiftmodule/armv7.swiftdoc</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Modules/SMHeaterSDK.swiftmodule/armv7.swiftmodule</key>
 		<data>
-		AozZiTPm2dLdfRSa1vE7rpdFAwo=
+		JuCbIO97YzMA/X5axNM96aF1WPQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -115,11 +115,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			AozZiTPm2dLdfRSa1vE7rpdFAwo=
+			JuCbIO97YzMA/X5axNM96aF1WPQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			zIQt3SZsP3afu7rqYpdD3lA+qgtmStPIVsgAUUfgU/c=
+			jjmhe7NMwrTTKsWk00meio2eqdp8B2s6yeqaoVshRWY=
 			</data>
 		</dict>
 		<key>Modules/SMHeaterSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -137,11 +137,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			I3QzwCjOCQ1c24A67Z11k/g7vkY=
+			XDQYSQcctSc6E2tL8VLuOubC3vY=
 			</data>
 			<key>hash2</key>
 			<data>
-			tIh6dqYHjyUdaHEFQCdvbnAV1eMS2y3y+eHPfV06cOs=
+			5xsJAFIPM/38xG53crR/Ruc/hE+0TVckQk4h8J0/X/g=
 			</data>
 		</dict>
 		<key>Modules/SMHeaterSDK.swiftmodule/arm64.swiftdoc</key>
@@ -159,11 +159,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			I3QzwCjOCQ1c24A67Z11k/g7vkY=
+			XDQYSQcctSc6E2tL8VLuOubC3vY=
 			</data>
 			<key>hash2</key>
 			<data>
-			tIh6dqYHjyUdaHEFQCdvbnAV1eMS2y3y+eHPfV06cOs=
+			5xsJAFIPM/38xG53crR/Ruc/hE+0TVckQk4h8J0/X/g=
 			</data>
 		</dict>
 		<key>Modules/SMHeaterSDK.swiftmodule/armv7-apple-ios.swiftdoc</key>
@@ -181,11 +181,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			AozZiTPm2dLdfRSa1vE7rpdFAwo=
+			JuCbIO97YzMA/X5axNM96aF1WPQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			zIQt3SZsP3afu7rqYpdD3lA+qgtmStPIVsgAUUfgU/c=
+			jjmhe7NMwrTTKsWk00meio2eqdp8B2s6yeqaoVshRWY=
 			</data>
 		</dict>
 		<key>Modules/SMHeaterSDK.swiftmodule/armv7.swiftdoc</key>
@@ -203,11 +203,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			AozZiTPm2dLdfRSa1vE7rpdFAwo=
+			JuCbIO97YzMA/X5axNM96aF1WPQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			zIQt3SZsP3afu7rqYpdD3lA+qgtmStPIVsgAUUfgU/c=
+			jjmhe7NMwrTTKsWk00meio2eqdp8B2s6yeqaoVshRWY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

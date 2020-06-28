@@ -8,18 +8,37 @@
 
 import UIKit
 
+public typealias GLViewControllerWillPopHandler = (_ controller: GLBaseViewController) -> ()
+
 open class GLBaseViewController: UIViewController {
+    public var willPopHandler: GLViewControllerWillPopHandler?
+    public var leftNavigationBtn: UIButton?
+    public var rightNavigationBtn: UIButton?
+    
+    public var enableGradientBackground = false {
+        didSet {
+            if oldValue == false && enableGradientBackground == true {
+                setupGradientBGColor()
+            }
+        }
+    }
     private var _gradientColorLayer: CAGradientLayer?
+    
     public init() {
         super.init(nibName: nil, bundle: nil)
-        self.modalTransitionStyle = .crossDissolve
-        self.modalPresentationStyle = .overFullScreen
+        initSetting()
     }
-    
     public required init?(coder: NSCoder) {
         super.init(coder: coder)
+        initSetting()
     }
-
+    
+    func initSetting() {
+        self.modalTransitionStyle = .crossDissolve
+        self.modalPresentationStyle = .overFullScreen
+        enableRightSwipeToPop = true
+    }
+    
     // MARK: - Lift Cycle
     open override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,7 +46,8 @@ open class GLBaseViewController: UIViewController {
         self.extendedLayoutIncludesOpaqueBars = true
         self.edgesForExtendedLayout = UIRectEdge.all
         self.automaticallyAdjustsScrollViewInsets = false
-        self.view.backgroundColor = MColor.init(UIColor.white, dark: UIColor.black).color
+        self.view.backgroundColor = DEFAULT_BG_COLOR.color
+        
 //        self.setupViews()
 //        self.setupLayout()
     }
@@ -44,6 +64,9 @@ open class GLBaseViewController: UIViewController {
     
     // MARK: - Public
     open func setupGradientBGColor() {
+        if !enableGradientBackground {
+            return
+        }
         if _gradientColorLayer != nil {
             _gradientColorLayer?.removeFromSuperlayer()
         }
@@ -56,6 +79,7 @@ open class GLBaseViewController: UIViewController {
         self.view.layer.insertSublayer(_gradientColorLayer!, at: 0)
         //        self.view.layer.addSublayer(gradientColorLayer)
     }
+    
     open override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
         super.traitCollectionDidChange(previousTraitCollection)
         self.setupGradientBGColor()
@@ -68,7 +92,15 @@ open class GLBaseViewController: UIViewController {
     // MARK: - Custom Delegate
     
     // MARK: - Setter
-    
+    // 是否使用右滑返回
+    public var enableRightSwipeToPop: Bool = false {
+        didSet {
+            if self.navigationController?.isKind(of: GLBaseNavigationController.self) ?? false {
+                let nvc = self.navigationController as! GLBaseNavigationController
+                nvc.enableRightSwipeToPop = self.enableRightSwipeToPop
+            }
+        }
+    }
     // MARK: - Getter
 }
 
