@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/SMHeaterSDK-Swift.h</key>
 		<data>
-		T/Vg5AVxShxXVQOboHNGvdJmt7c=
+		4kR1e383K1fqR0sckjoIgI9EG7I=
 		</data>
 		<key>Headers/SMHeaterSDK.h</key>
 		<data>
@@ -18,23 +18,23 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		EWTUecXO6KT5ZBwTz3qYyC6r1JU=
+		wtNQmAvmWRGu0u5Cg14HgqO5J2I=
 		</data>
 		<key>Modules/SMHeaterSDK.swiftmodule/arm.swiftdoc</key>
 		<data>
-		hoB5WcIkAOBUMyPdnt1CigST6lc=
+		Z8Y+i0e9vzi00acdcesCiCh1kKg=
 		</data>
 		<key>Modules/SMHeaterSDK.swiftmodule/arm.swiftmodule</key>
 		<data>
-		wIdpvQseJ4ukWXr3PXV7XbZyxyk=
+		6TEglaBgFmMse5kND82uLCoBVTI=
 		</data>
 		<key>Modules/SMHeaterSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		HMnAlvaPgCkoGd6xEXumxL7Hjb8=
+		X1homJNP4KrbmTdxIoLNvLclD9g=
 		</data>
 		<key>Modules/SMHeaterSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		Yx0C3xwVeo20zoa3FOHLA15WJrI=
+		ZhZBMDu6e6/ZSJPmQ4mtCifE1ik=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -58,11 +58,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			T/Vg5AVxShxXVQOboHNGvdJmt7c=
+			4kR1e383K1fqR0sckjoIgI9EG7I=
 			</data>
 			<key>hash2</key>
 			<data>
-			FnQ/C/CaFSCnhcCrNWvTE2HlU9HgqayFv824AOp5wOM=
+			ZBhlIHvYhcUJGnHOCBaxGEbjwUiiWF4dcsrDZWuUmOM=
 			</data>
 		</dict>
 		<key>Headers/SMHeaterSDK.h</key>
@@ -80,44 +80,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hoB5WcIkAOBUMyPdnt1CigST6lc=
+			Z8Y+i0e9vzi00acdcesCiCh1kKg=
 			</data>
 			<key>hash2</key>
 			<data>
-			2p/fLu7zwrS1NlIELl0/4i/kEDYxMNll2cqh1ISHDBU=
+			fZdtPyZdr49BCJ6f1+zO1Pqur4UimSDiJ4vnsW9Z3+k=
 			</data>
 		</dict>
 		<key>Modules/SMHeaterSDK.swiftmodule/arm.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wIdpvQseJ4ukWXr3PXV7XbZyxyk=
+			6TEglaBgFmMse5kND82uLCoBVTI=
 			</data>
 			<key>hash2</key>
 			<data>
-			31GETq019k+BXcfl3lHSddgY5ThZ9/nBnGj4qmWsC1Q=
+			etOeEyuSsxjLYy/eSzozdoZtzazK5P2ywLbduVx/cfE=
 			</data>
 		</dict>
 		<key>Modules/SMHeaterSDK.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			HMnAlvaPgCkoGd6xEXumxL7Hjb8=
+			X1homJNP4KrbmTdxIoLNvLclD9g=
 			</data>
 			<key>hash2</key>
 			<data>
-			dtyYX33SkqyooEzoCKZibWPH2REnEZ37z6fVe1UjdcA=
+			CeoLoRb/7tNNSYIJ3uYUgWtK3ygmWuUPDiOOfdazS/Y=
 			</data>
 		</dict>
 		<key>Modules/SMHeaterSDK.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Yx0C3xwVeo20zoa3FOHLA15WJrI=
+			ZhZBMDu6e6/ZSJPmQ4mtCifE1ik=
 			</data>
 			<key>hash2</key>
 			<data>
-			kCtjn8+htdTdicT6UKoz/uRzG1SbstR6//ST8NbnP1o=
+			ufpn8S9p/jBxdRt3REmEXI/crHYyo8du17o2GsTuAVI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

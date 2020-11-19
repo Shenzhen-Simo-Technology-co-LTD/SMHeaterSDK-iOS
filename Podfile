@@ -10,7 +10,10 @@ target 'SMHeaterDemo' do
  pod 'GLDemoUIKit'
 # pod 'GLDemoUIKit', :git=>'https://github.com/GrayLand119/GLDemoUIKit.git'
  
-# pod 'SMHeaterSDK-iOS'
- pod 'SMHeaterSDK-iOS', :path => './'
+ # 0.0.10 build with swift 5.2
+ # 0.0.11 build with swift 5.3
+ # 0.0.12 build with swift 5.3.1
+#pod 'SMHeaterSDK-iOS'
+  pod 'SMHeaterSDK-iOS', :path => './'
  
 end

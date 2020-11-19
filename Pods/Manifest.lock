@@ -4,7 +4,7 @@ PODS:
     - SnapKit (~> 5.0.1)
     - YYCategories (~> 1.0.4)
   - PKHUD (5.3.0)
-  - SMHeaterSDK-iOS (0.0.11)
+  - SMHeaterSDK-iOS (0.0.12)
   - SnapKit (5.0.1)
   - YYCategories (1.0.4):
     - YYCategories/no-arc (= 1.0.4)
@@ -29,10 +29,10 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   GLDemoUIKit: ee2ac881ced363e3ed21e5fa8b1745790dfec464
   PKHUD: 98f3e4bc904b9c916f1c5bb6d765365b5357291b
-  SMHeaterSDK-iOS: ca33bf696d293d000ab8ed7798f8a19d203f6aa5
+  SMHeaterSDK-iOS: 56cf33fb3d9c515f78788ce9788ba64884eedb79
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
   YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
 
-PODFILE CHECKSUM: e1f38bc625b06587d3562ec72fccabe035a15583
+PODFILE CHECKSUM: 5f3c6b4b4f86f4de64e14047441fa43a704aab20
 
 COCOAPODS: 1.9.3
